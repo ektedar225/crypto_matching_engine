@@ -68,8 +68,8 @@ This project implements a sophisticated financial matching engine that efficient
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd matching-engine
+git clone https://github.com/ektedar225/crypto_matching_engine.git
+cd crypto_matching_engine
 ```
 
 2. Install dependencies:
@@ -187,7 +187,7 @@ The engine persists state to `orderbook_state.json` using JSON serialization. Th
 ## Project Structure
 
 ```
-matching-engine/
+crypto_matching_engine/
 ├── matching_engine.py          # Main engine implementation
 ├── test_matching_engine.py     # Comprehensive test suite
 ├── stress_test.py              # Performance stress testing
@@ -236,9 +236,7 @@ Ektedar Ahmad
 
 ## Contact
 
-For questions or issues, please open an issue in the repository or contact the maintainers.
-
----
+For questions or issues, please open an issue in the repository.
 
 ## Performance Benchmarks
 
@@ -256,5 +254,3 @@ This is a demonstration of matching engine concepts. For production use in real 
 - High-availability and disaster recovery
 - Market surveillance and compliance
 - Integration with external liquidity sources
-#   c r y p t o _ m a t c h i n g _ e n g i n e  
- 
